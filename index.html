@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+    <script>
+            window.onload = function exampleFunction(){
+                var x = document.getElementById("register");
+                x.hidden=true
+            
+            }
+
+        function sdsdssd() {
+            var x = document.getElementById("gg");
+            x.innerHTML = "Avaliação Trimestal Porem Azul";
+            x.style.color = "blue";
+            x.style.fontFamily = "Arial";
+
+        }
+
+        function sdsdssd(){
+            var c = document.getElementById("dsd");
+            c.textContent = "Voce trocou para azul o texto";
+            c.style.backgroundColor = "rgb(175, 175, 254)";
+        }
+
+        function sd(){
+            var z = document.getElementById("sdsd");
+            z.remove()
+            z.style.visibility = 'hidden';
+            var c = document.getElementById("bbbb");
+            var nome=prompt("Qual seu nome:");
+            
+
+            if (nome!=null)
+                    {
+                c = "Ola " + nome + " voce esta vendo a prova de rivaldo";
+                document.getElementById("bbbb").innerHTML=c;
+
+                var u = document.getElementById("register");
+                u.hidden=false
+                    }
+
+                    
+                }   
+
+                'use strickt';
+
+                    const images = [
+                        { 'id' : '1', 'url' : './img/images.webp' },
+                        { 'id' : '2', 'url' : 'https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2022/10/26/quando-comeca-a-copa-do-mundo-2022-t87d2mj5a4aa.jpg'},
+                        { 'id' : '3', 'url' : 'https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2022/10/26/quando-comeca-a-copa-do-mundo-2022-t87d2mj5a4aa.jpg'},
+                        { 'id' : '4', 'url' : 'https://p2.trrsf.com/image/fget/cf/648/0/images.terra.com/2022/10/26/quando-comeca-a-copa-do-mundo-2022-t87d2mj5a4aa.jpg'},
+                    ]
+
+                    const container = document.querySelector('#fundo');
+
+                    const loadImages = (images, container) => {
+                        images.forEach( image => {
+                            container.innerHTML += `
+                            <div class='item'>
+                                <img src='${image.url}'>
+                            </div> 
+                            `
+                        })
+                       
+                    }
+
+
+                    loadImages( images,container );
+                
+    </script>
+</head>
+<body>
+    <section>
+        <div id="slide">
+            
+            
+        </div>
+        <div class="frase">
+            
+            <button onclick="sd()" id="sdsd"> Seu nome E?</button>
+            <hi id="bbbb"></hi>
+        </div>
+        <div id="register"> 
+            <h1 id="gg">Avaliação Trimestral</h1>
+            <button onclick="sdsdssd()" id="dsd">Vamos Mudar a cor?</button>
+        </div>
+
+
+    </section>
+
+
+</body>
+</html>
+

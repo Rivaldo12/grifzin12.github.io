@@ -1,0 +1,31 @@
+#dsd{
+    width: 35%;
+    height: 30px;
+    border: none;
+    background-color: rgb(253, 223, 253);
+}
+
+#dsd:hover{
+background-color: rgb(175, 175, 254);
+transform: scale(1.05);
+}
+
+#slide {
+    width: 650px;
+    height: 350px;
+    margin: 50px auto;
+    box-shadow: 0 0 8px rgb(255, 0, 0);
+}
+
+#slide img {
+    position: absolute;
+    z-index: 1;
+    display: none;
+    left: 0;
+}
+
+
+
+
+
+
